@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CMove
   - Box
+  - Ally
   layers:
   - Default
   - TransparentFX

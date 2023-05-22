@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public List<Personajes> Personajes;
+    public List<Personajes> personajes;
 
     private void Awake()
     {
@@ -22,4 +22,4 @@ public class GameManager : MonoBehaviour
 
     }
     
-}
+}*/

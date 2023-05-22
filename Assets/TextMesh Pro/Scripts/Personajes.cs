@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,10 +6,11 @@ using UnityEngine;
 
 public class Personajes : ScriptableObject
 {
-    public GameObject personajejugable;
+    public GameObject personajeJugable;
 
     public Sprite imagen;
 
     public string nombre; 
 
 }
+*/
