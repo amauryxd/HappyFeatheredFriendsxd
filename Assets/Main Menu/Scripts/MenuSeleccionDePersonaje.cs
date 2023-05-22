@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuSeleccionDePersonaje : MonoBehaviour
 {
+    /*
     private int index;
 
     [SerializeField] private Image imagen;
@@ -65,4 +66,5 @@ public class MenuSeleccionDePersonaje : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    */
 }
