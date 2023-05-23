@@ -14,6 +14,7 @@ public class Ataque : MonoBehaviour
 
     public void Golpe()
     {
+        Debug.Log("ejecutaatac");
         if (tiempoSiguienteAtaque <= 0)
         {
             Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
@@ -25,6 +26,7 @@ public class Ataque : MonoBehaviour
                     colisionador.transform.GetComponent<Vida>().tomarDaño(dañoGolpe);
                 }
             }
+            tiempoSiguienteAtaque = tiempoEntreAtaques;
         }
     }
 

@@ -7,6 +7,7 @@ TagManager:
   - CMove
   - Box
   - Ally
+  - Enemy
   layers:
   - Default
   - TransparentFX

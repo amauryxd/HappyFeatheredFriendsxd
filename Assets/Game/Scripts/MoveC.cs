@@ -48,10 +48,8 @@ public class MoveC : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
 
-        if (!collision.CompareTag("box"))
-        {
             isCol = false;
-        }
+
     }
 
 }
