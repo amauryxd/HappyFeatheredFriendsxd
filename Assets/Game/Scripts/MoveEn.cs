@@ -55,7 +55,7 @@ public class MoveEn : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("nomueve" + mov[0]);
+                    //Debug.Log("nomueve" + mov[0]);
                 }
                 break;
             case 2:
@@ -65,7 +65,7 @@ public class MoveEn : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("nomueve" + mov[1]);
+                    //Debug.Log("nomueve" + mov[1]);
                 }
                 break;
             case 3:
@@ -75,7 +75,7 @@ public class MoveEn : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("nomueve" + mov[2]);
+                    //Debug.Log("nomueve" + mov[2]);
                 }
                 break;
             case 4:
@@ -85,7 +85,7 @@ public class MoveEn : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("nomueve" + mov[3]);
+                    //Debug.Log("nomueve" + mov[3]);
                 }
                 break;
             case 5:
@@ -95,7 +95,7 @@ public class MoveEn : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("nomueve" + mov[4]);
+                    //Debug.Log("nomueve" + mov[4]);
                 }
                 break;
             case 6:
@@ -137,7 +137,7 @@ public class MoveEn : MonoBehaviour
             {
                 if (colisionador.CompareTag(tagg) || colisionador.CompareTag(tagg2))
                 {
-                    colisionador.transform.GetComponent<Vida>().tomarDaño(dañoGolpe);
+                    colisionador.transform.GetComponent<Vida>().tomarDaño(dañoGolpe-Vida.esscudo);
                 }
             }
             tiempoSiguienteAtaque = tiempoEntreAtaques;
@@ -153,7 +153,7 @@ public class MoveEn : MonoBehaviour
 
     public void Regresar()
     {
-        Debug.Log("regreso");
+        Debug.Log("No hacer nada");
     }
 
 
