@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Derrota.unity
+    guid: c1e88c202821c8149a1585be38d21ef3
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 8325bc9dec9ec21448de3a4792adcf8c
   m_configObjects: {}

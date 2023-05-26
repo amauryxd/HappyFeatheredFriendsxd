@@ -8,6 +8,7 @@ TagManager:
   - Box
   - Ally
   - Enemy
+  - conquist
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - ally
   - 
   - l
-  - 
+  - conquista
   - 
   - 
   - 

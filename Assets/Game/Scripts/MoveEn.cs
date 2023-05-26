@@ -20,10 +20,7 @@ public class MoveEn : MonoBehaviour
 
     [SerializeField] public string tagg;
     [SerializeField] public string tagg2;
-    // Start is called before the first frame update
 
-
-    // Update is called once per frame
     void Update()
     {
         if (SigAcc > 0)
@@ -153,7 +150,7 @@ public class MoveEn : MonoBehaviour
 
     public void Regresar()
     {
-        Debug.Log("No hacer nada");
+        //Debug.Log("No hacer nada");
     }
 
 

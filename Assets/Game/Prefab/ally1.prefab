@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 7450283521026056804}
   - component: {fileID: 7450283521026056806}
   - component: {fileID: 7450283521026056807}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: DerechaA (1)
   m_TagString: CMove
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 28a339eea1811de42a5c769f1b181748, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -463,6 +463,10 @@ MonoBehaviour:
   SigAccEscudo: 0
   coolDownEscudo2: 10
   SigAccEscudo2: 0
+  butH: {fileID: 0}
+  butS: {fileID: 0}
+  coolDownHeal: 5
+  SigAccHeal: 0
 --- !u!114 &7450283521056897203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,7 +485,7 @@ MonoBehaviour:
   - {fileID: 7450283521026056857}
   - {fileID: 7450283521470811841}
   - {fileID: 7450283522196042549}
-  coolDown: 1
+  coolDown: 0.75
   SigAcc: 0
   controladorGolpe: {fileID: 7450283522119255430}
   radioGolpe: 1.8
@@ -602,7 +606,7 @@ GameObject:
   - component: {fileID: 7450283521163488774}
   - component: {fileID: 7450283521163488824}
   - component: {fileID: 7450283521163488825}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Enfrente (1)
   m_TagString: CMove
   m_Icon: {fileID: 0}
@@ -677,7 +681,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 28a339eea1811de42a5c769f1b181748, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -740,7 +744,7 @@ GameObject:
   - component: {fileID: 7450283521470811854}
   - component: {fileID: 7450283521470811855}
   - component: {fileID: 7450283521470811851}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: IzquierdaB (1)
   m_TagString: CMove
   m_Icon: {fileID: 0}
@@ -815,7 +819,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 28a339eea1811de42a5c769f1b181748, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -890,7 +894,7 @@ GameObject:
   - component: {fileID: 7450283522107502911}
   - component: {fileID: 7450283522107502897}
   - component: {fileID: 7450283522107502898}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: IzquierdaA (1)
   m_TagString: CMove
   m_Icon: {fileID: 0}
@@ -965,7 +969,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 28a339eea1811de42a5c769f1b181748, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1058,7 +1062,7 @@ GameObject:
   - component: {fileID: 7450283522196042544}
   - component: {fileID: 7450283522196042546}
   - component: {fileID: 7450283522196042547}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: DerechaB (1)
   m_TagString: CMove
   m_Icon: {fileID: 0}
@@ -1133,7 +1137,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 28a339eea1811de42a5c769f1b181748, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
