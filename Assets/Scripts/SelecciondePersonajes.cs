@@ -45,7 +45,11 @@ public class SelecciondePersonajes : MonoBehaviour
 
     public void Jugar()
     {
-        PlayerPrefs.SetInt("indicePersonaje", indicePersonaje);
-        SceneManager.LoadScene("Game");
+        if (indicePersonaje == 0)
+        {
+            PlayerPrefs.SetInt("indicePersonaje", indicePersonaje);
+            SceneManager.LoadScene("Game");
+        }
     }
+
 }
